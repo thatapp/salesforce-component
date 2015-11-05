@@ -114,6 +114,11 @@
             "main":"./lib/actions/task.js",
             "dynamicMetadata":true
         },
+        "task":{
+            "title":"New Product",
+            "main":"./lib/actions/product.js",
+            "dynamicMetadata":true
+        },
         "other":{
             "title":"Other Object",
             "main":"./lib/actions/other.js",
