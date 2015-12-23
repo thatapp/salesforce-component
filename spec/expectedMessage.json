@@ -41,7 +41,13 @@
             "custom": false,
             "required": false,
             "readonly": false,
-            "enum": ["Mr.", "Ms.", "Mrs.", "Dr.", "Prof."]
+            "enum": {
+              "Mr.": "Mr.",
+              "Ms.": "Ms.",
+              "Mrs.": "Mrs.",
+              "Dr.": "Dr.",
+              "Prof.": "Prof."
+            }
         },
         "OtherStreet": {
             "type": "string",
@@ -210,7 +216,13 @@
             "custom": false,
             "required": false,
             "readonly": false,
-            "enum": ["Web", "Phone Inquiry", "Partner Referral", "Purchased List", "Other"]
+            "enum": {
+              "Web":"Web",
+              "Phone Inquiry": "Phone Inquiry",
+              "Partner Referral": "Partner Referral",
+              "Purchased List": "Purchased List",
+              "Other": "Other"
+            }
         },
         "Birthdate": {
             "type": "string",
@@ -259,7 +271,11 @@
             "default": null,
             "required": false,
             "readonly": false,
-            "enum": ["Secondary", "Tertiary", "Primary"]
+            "enum": {
+              "Secondary": "Secondary",
+              "Tertiary": "Tertiary",
+              "Primary": "Primary"
+             }
         },
         "Languages__c": {
             "type": "string",
