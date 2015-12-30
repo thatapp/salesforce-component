@@ -119,6 +119,11 @@
             "main":"./lib/actions/product.js",
             "dynamicMetadata":true
         },
+        "order":{
+            "title":"New Order",
+            "main":"./lib/actions/order.js",
+            "dynamicMetadata":true
+        },
         "other":{
             "title":"Other Object",
             "main":"./lib/actions/other.js",
