@@ -124,6 +124,11 @@
             "main":"./lib/actions/order.js",
             "dynamicMetadata":true
         },
+        "orderLine":{
+            "title":"New Order Line",
+            "main":"./lib/actions/orderLine.js",
+            "dynamicMetadata":true
+        },
         "other":{
             "title":"Other Object",
             "main":"./lib/actions/other.js",
